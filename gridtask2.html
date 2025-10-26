@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-left: 100px;
+        }
+        
+        .parent{
+            height: 100px;
+            display: grid;
+            gap: 5px;
+            width: 600px;
+            /* grid-template-columns: repeat(4,1fr); */
+            grid-template-areas: 
+            'img1 img1 img2 img3'
+            'img1 img1 img2 img4'
+            'img1 img1 img5 img6'
+            'img7 img8 img9 img9'
+            'img7 img10 img9 img9'
+            'img11 img12 img9 img9'
+            'img11 img13 img9 img9'
+            'img14 img14 img15 img16'
+            'img14 img14 img15 img17'
+            'img14 img14 img18 img19'
+            'img20 img20 img20 img21'
+            'img20 img20 img20 img22'
+            'img20 img20 img20 img23';
+        }
+
+           
+        
+        .parent>img{
+            height:100%;
+            width:100%;
+            border: 2px solid black;
+        }
+        .img1{
+            grid-area:img1 ;
+            
+        }
+        .img2{
+            grid-area:img2 ;
+           
+        }
+        .img3{
+            grid-area: img3;
+           
+        }
+        .img4{
+            grid-area:img4 ;
+        }
+           
+        .img5{
+            grid-area:img5 ;
+           
+        }
+        .img6{
+            grid-area:img6;
+            
+        }
+        .img7{
+            grid-area:img7 ;
+            
+        }
+        .img8{
+            grid-area:img8 ;
+            
+        }
+        .img9{
+            grid-area:img9 ;
+            
+        }
+        .img10{
+            grid-area:img10 ;
+           
+        }
+        .img11{
+            grid-area:img11 ;
+          
+        }
+        .img12{
+            grid-area:img12 ;
+           
+        }
+        .img13{
+            grid-area:img13 ;
+            
+        }
+        .img14{
+            grid-area:img14 ;
+            
+        }
+        .img15{
+            grid-area:img15 ;
+           
+        }
+        .img16{
+            grid-area:img16 ;
+          
+        }
+        .img17{
+            grid-area:img17 ;
+            
+        }
+        .img18{
+            grid-area:img18 ;
+           
+        }
+        .img19{
+            grid-area:img19 ;
+           
+        }
+        .img20{
+            grid-area:img20 ;
+           
+        }
+        .img21{
+            grid-area:img21 ;
+          
+        }
+        .img22{
+            grid-area:img22 ;
+           
+        }
+        .img23{
+            grid-area:img23 ;
+           
+        }
+       
+
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+    <img src="https://i.pinimg.com/474x/ec/a6/da/eca6da2e377514a38db858305a71a8d2.jpg" alt=""class="img1">
+    <img src="https://i.pinimg.com/videos/thumbnails/originals/d8/6b/56/d86b5669fd09d4e00672a18752570fde.0000000.jpg" alt=""class="img2">
+    <img src="https://images.stockcake.com/public/a/0/d/a0df3fa1-fd8f-4bd0-8c21-3b6484879741_large/sunset-flower-field-stockcake.jpg" alt="" class="img3">
+    <img src="https://images.myflowertree.com/blog/wp-content/uploads/2022/01/03053528/Sunflower.jpg?w=360&dpr=2.6" alt="" class="img4">
+    <img src="https://hips.hearstapps.com/hmg-prod/images/hydrangea-flowers-royalty-free-image-1584638572.jpg?crop=0.66635xw:1xh;center,top" alt="" class="img5">
+    <img src="https://cdn.stocksnap.io/img-thumbs/280h/rain-flower_ERM78DQMOZ.jpg" alt="" class="img6">
+    <img src="https://images.pexels.com/photos/697259/pexels-photo-697259.jpeg?cs=srgb&dl=pexels-hieu-697259.jpg&fm=jpg" alt="" class="img7">
+    <img src="https://images.pexels.com/photos/69776/tulips-bed-colorful-color-69776.jpeg?cs=srgb&dl=pexels-pixabay-69776.jpg&fm=jpg" alt="" class="img8">
+    <img src="https://i.pinimg.com/736x/0f/60/f3/0f60f36448db7089728ecee32a89bba0.jpg" alt="" class="img9">
+    <img src="https://cdn.pixabay.com/photo/2015/06/19/20/13/sunset-815270_640.jpg" alt="" class="img10">
+    <img src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-1167560383-612x612-1668795431.jpg?crop=1.00xw:0.834xh;0,0.152xh" alt="" class="img11">
+    <img src="https://images.stockcake.com/public/a/0/d/a0df3fa1-fd8f-4bd0-8c21-3b6484879741_large/sunset-flower-field-stockcake.jpg" alt="" class="img12">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeVq1ha-Ddrh2vFswNwVrV54NurSEfJr0DPA&s" alt="" class="img13">
+    <img src="https://images.pexels.com/photos/69776/tulips-bed-colorful-color-69776.jpeg?cs=srgb&dl=pexels-pixabay-69776.jpg&fm=jpg" alt="" class="img14">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9hzfPHjnMrDrjWocUGURe15fKDiNOAZBLPg&s" alt="" class="img15">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2V6rF55hCQHUexu0zdmexsRaxlZ8Oz8noQ&s" alt="" class="img16">
+    <img src="https://i.pinimg.com/236x/ff/7a/ea/ff7aea38b8b6a4ac9546145b99023381.jpg" alt="" class="img17">
+    <img src="https://cdn.flowersnfruits.com/uploads/product/flowers_n_fruits/OCT2024/1729758597773-RedRosesinaVaseFruitsinaBasket.webp" alt="" class="img18">
+    <img src="https://api.floraindia.com/upload/MBPo0kKx8N1754128490983.webp" alt="" class="img19">
+    <img src="https://hips.hearstapps.com/hmg-prod/images/purple-balloon-flower-royalty-free-image-105782407-1542675741.jpg" alt="" class="img20">
+    <img src="https://www.thespruce.com/thmb/c3znkzZgMeuvzBy4wH13jVllfUo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/plants-with-big-flowers-4138211-hero-b10becb169064cc4b3c7967adc1b22e1.jpg" alt="" class="img21">
+    <img src="https://images.stockcake.com/public/7/b/4/7b460d6f-7370-4b5e-a6b1-bf539c926ba8_large/colorful-flower-heart-stockcake.jpg" alt="" class="img22">
+    <img src="https://cdn.pixabay.com/photo/2020/06/19/21/48/flowers-5318970_1280.jpg" alt="" class="img23">
+    </div>
+</body>
+</html>
